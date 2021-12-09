@@ -13,8 +13,22 @@ Logout: User will then be directed to home page from where he can click on log-o
 Some snapshots of website are attached here:  
 sign-in/sign-up page  
 ![login](https://user-images.githubusercontent.com/74341725/145361895-011d6b8d-a42e-4153-aa34-af1a7377c3fd.png)
-database
-
-homepage
-
+database  
+![database](https://user-images.githubusercontent.com/74341725/145362517-85cbffcf-f9fa-44f4-946e-07c296557e0c.png)
+homepage  
+![homepage](https://user-images.githubusercontent.com/74341725/145362521-821e3b56-ed5e-43fb-86ef-565e5a394d2a.png)
+Services  
+![services](https://user-images.githubusercontent.com/74341725/145363989-c691e4ec-6bfd-405a-9496-a757a849118c.png)
+Contact  
+![contact](https://user-images.githubusercontent.com/74341725/145364007-0ae9d707-b54b-47f5-ac20-8481a31a7c4f.png)
+About us  
+![aboutus](https://user-images.githubusercontent.com/74341725/145364014-0789a61d-4385-436d-8ed5-4a3d85d7020b.png)
+Dishes  
+![dishes](https://user-images.githubusercontent.com/74341725/145364028-32ddd372-0429-4c0e-9b21-5cf5fac4dc6a.png)
+Cart  
+![cart](https://user-images.githubusercontent.com/74341725/145364040-99b7b985-ccbe-47f2-85da-f7847450086c.png)
+Payment Portal  
+![payment](https://user-images.githubusercontent.com/74341725/145364066-4ebaab1c-a595-4b70-89f3-96049687b487.png)
+Feedback  
+![feedback](https://user-images.githubusercontent.com/74341725/145364087-0bc457ad-e1a0-4e83-93a6-f53805269404.png)
 
