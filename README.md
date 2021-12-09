@@ -11,8 +11,8 @@ Rating Form: After clicking on place order a payment successful message will be 
 Logout: User will then be directed to home page from where he can click on log-out icon which will direct him/her to sign-up page again.
 
 Some snapshots of website are attached here:  
-sign-in/sign-up page
-
+sign-in/sign-up page  
+![login](https://user-images.githubusercontent.com/74341725/145361895-011d6b8d-a42e-4153-aa34-af1a7377c3fd.png)
 database
 
 homepage
