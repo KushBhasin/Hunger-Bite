@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>about us</title>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap" rel="stylesheet">
+
+    <style>
+        body{
+            background-image:url("https://images.unsplash.com/photo-1613446234332-99387a308c1b?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTEyfHxyZXN0YXVyYW50JTIwZm9vZCUyMGJsYWNrJTIwYmFja2dyb3VuZHxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60") ;
+            font-family: 'Noto Sans JP', sans-serif;
+        }
+        .main{
+            width:800px;
+            height:630px;
+
+            margin-top: 100px;
+            margin-right: 500px;
+            margin-left: 400px;
+            background-color: white;
+
+            align-content: center;
+           padding: 10px;
+
+
+        }
+        h1{
+            text-align: center;
+            margin: 50px;
+        }
+        .image{
+            float: right;
+            padding: 0;
+            margin: 100px 0px 0px 0px;
+
+
+
+        }
+        img{
+              box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+        }
+        .text{
+
+            width: 45%;
+            margin: 150px 0px 0px 50px;
+             font-family: "Britannic Bold",sans-serif;
+        }
+        .frame {
+  width: 90%;
+  margin: 40px auto;
+  text-align: center;
+}
+
+button {
+  margin: 20px;
+}
+.custom-btn {
+  width: 130px;
+  height: 40px;
+  color: #fff;
+  border-radius: 5px;
+  padding: 10px 25px;
+  font-family: 'Lato', sans-serif;
+  font-weight: 500;
+  background: transparent;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+   box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5),
+   7px 7px 20px 0px rgba(0,0,0,.1),
+   4px 4px 5px 0px rgba(0,0,0,.1);
+  outline: none;
+}
+.btn-5 {
+  width: 130px;
+  height: 40px;
+  line-height: 42px;
+  padding: 0;
+  border: none;
+  background: rgb(255,27,0);
+background: linear-gradient(0deg, rgba(255,27,0,1) 0%, rgba(251,75,2,1) 100%);
+}
+.btn-5:hover {
+  color: #f0094a;
+  background: transparent;
+   box-shadow:none;
+}
+.btn-5:before,
+.btn-5:after{
+  content:'';
+  position:absolute;
+  top:0;
+  right:0;
+  height:2px;
+  width:0;
+  background: #f0094a;
+  box-shadow:
+   -1px -1px 5px 0px #fff,
+   7px 7px 20px 0px #0003,
+   4px 4px 5px 0px #0002;
+  transition:400ms ease all;
+}
+.btn-5:after{
+  right:inherit;
+  top:inherit;
+  left:0;
+  bottom:0;
+}
+.btn-5:hover:before,
+.btn-5:hover:after{
+  width:100%;
+  transition:800ms ease all;
+}
+
+    </style>
+</head>
+<body>
+<div class="main">
+    <h1>About Us</h1>
+    <div class="image">
+    <img src="https://images.unsplash.com/photo-1455619452474-d2be8b1e70cd?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjN8fGZvb2R8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" width="350px" height="320px">
+    </div>
+    <div class="text">
+<p>All about Food takes pride in producing quality, fresh food, pofessionally prepared and presented with passion and heart by a a qualified patissier and commercial chef .Attention to detal and the presentation of food products are important to us. Whatever you' are catering needs, all about Food will provide customised,flexible ,friendly personalised service,all at competitive prices. All about food is enthusiastic in creating innovative food recipes; choose from finger food, platters, weddings,dinners parties in own home festive cakes of any type including wedding cakes as well as corporate functions.</p>
+    </div>
+<div class="frame">
+<button class="custom-btn btn-5"><span>Read More</span></button>
+</div>
+</div>
+</body>
+</html>

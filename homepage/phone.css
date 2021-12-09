@@ -1,0 +1,72 @@
+#navbar{
+    flex-direction: column;
+    
+}
+
+.mySlides img{
+    background-size: cover;
+}
+#navbar ul li a{
+    font-size: 1rem;
+    padding: 0px 1px;
+}
+
+.logo-text{
+    font-size: 2rem;
+    text-align: center;
+    font-family: 'Lobster', cursive;
+}
+
+.text{
+    font-size: 1rem;
+    text-align: center;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+    
+}
+
+#services{
+    flex-direction: column;
+}
+
+#services .box{
+    margin: 10px;
+}
+
+.navigation{
+    flex-direction: column;
+}
+
+.navigation-bar ul li a{
+    font-size: 1.8rem;
+    padding: 0px 7px;
+}
+
+.select{
+    flex-direction: column;
+}
+
+.select a p{
+    font-size: 1rem;
+    padding: 0px 7px;
+    
+}
+
+.testimonial-column{
+    flex-basis: 100%;
+
+}
+
+.footer-left, .footer-right{
+    flex-basis: 100%;
+    font-size: 14px;
+}
+
+.menu-logo-text{
+    font-size: 3.3rem;
+    text-align: center;
+    font-family: 'Lobster', cursive;
+}

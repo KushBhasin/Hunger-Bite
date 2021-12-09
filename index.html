@@ -1,0 +1,58 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login System</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap" rel="stylesheet">
+</head>
+<body>
+    
+    <div class="back">
+        <div class="form-box">
+            <div class="button-box">
+               
+                <div id="button"></div>
+                <button type="button" class="tb" onclick="signin()">Sign In</button>
+                <button type="button" class="tb" onclick="signup()">Sign Up</button>
+            </div>
+            <form action="login.php" method="post" class="details" id="signin">
+                <input style="color: white; " type="text" class="field" name="user-name" placeholder="User Name" required>
+                <input style="color: white; " type="password" class="field" name="user-pass" placeholder="Password" required>
+                <input type="checkbox" class="check-box" ><span>Remember Password</span>
+                <button type="submit" name="login-btn" class="submit-btn">Log In</button>
+</form>
+<form action="signup.php" method="post" class="details" id="signup">
+    <input style="color: white; " type="text" name="user-name" class="field"  placeholder="User Name" required>
+    <input style="color: white; " type="email" name="user-email" class="field" placeholder="Email Id" required>
+    <input style="color: white; " type="text" name="user-pass" class="field" placeholder="Password" required>
+
+    <input type="checkbox" class="check-box" ><span>I agree to <a href="#">T&C</a></span>
+    <button type="submit" name="signup-btn" class="submit-btn">Register</button>
+</form>
+
+            
+        </div>
+    </div>
+    <script>
+        var x=document.getElementById("signin");
+        var y=document.getElementById("signup");
+        var z=document.getElementById("button");
+        function signup(){
+            x.style.left="-400px";
+            y.style.left="50px";
+            z.style.left="110px";
+
+        }
+        function signin(){
+            x.style.left="50px";
+            y.style.left="450px";
+            z.style.left="0";
+
+        }
+    </script>
+</body>
+</html>

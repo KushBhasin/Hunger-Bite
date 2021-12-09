@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Menu</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" media="screen and (max-width: 900px)" href="phone.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;700&display=swap" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap" rel="stylesheet" />
+    <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css"
+        integrity="sha384-wESLQ85D6gbsF459vf1CiZ2+rr+CsxRY0RpiF1tLlQpDnAgg6rwdsUF1+Ics2bni" crossorigin="anonymous" />
+    <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll/dist/smooth-scroll.polyfills.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet" />
+</head>
+
+<body>
+    <div class="navigation">
+        <div>
+            <a class="menu-logo-text" href="homepage.html" target="_blank" style="text-decoration: none;">Hunger-Bites</a>
+        </div>
+        <nav class="navigation-bar">
+            <ul>
+                <li class="item"><a href="#menu-dishes">Dishes</a></li>
+                <li class="item"><a href="#menu-desserts">Desserts</a></li>
+                <li class="item"><a href="#footer">Contact</a></li>
+                <li class="item"><a href="about-us.html" target="_blank">About Us</a></li>
+                <!-- <li class="item">
+                    <a href="../logout.php">
+                        <img id="logout" src="images\logout.png" alt="logout" />
+                    </a>
+                </li> -->
+            </ul>
+        </nav>
+    </div>
+
+
+        <h1 class="menu-h-primary">Menu</h1>        
+        <h1>
+            <div style="float: right; cursor: pointer">
+                <span class="glyphicon glyphicon-shopping-cart my-cart-icon">
+                    <span class="badge badge-notify my-cart-badge"></span>
+                </span>
+            </div>
+        </h1>
+        <!-- <button type="addNewProduct" name="addNewProduct" id="addNewProduct">
+            Add New Product
+        </button> -->
+        <a href="../payment-portal.html"><button id="pay">Pay Now</button></a>
+        <br /><br /><br />
+        <div id="menu-dishes">
+            <h1 class="menu-h-primary">Dishes</h1>
+            <div class="split">
+                <div class="col-md-3 text-center">
+                    <img class="featured-image" src="chhole.jpg" width="250" height="200" alt="Chhole" />
+                    <br /><br />
+                    Chhole - <strong>Rs 100</strong> <br /><br />
+                    <button class="btn btn-danger my-cart-btn" data-id="1" data-name="Chhole" data-summary="Full plate"
+                        data-price="100" data-quantity="1" data-image="chhole.jpg">
+                        Add to cart
+                    </button>
+                </div>
+
+                <div class="col-md-3 text-center">
+                    <img class="featured-image" src="dosa.jpg" width="250" height="200" alt="Dosa" />
+                    <br /><br />
+                    Savory Dosa - <strong>Rs 150</strong> <br /><br />
+                    <button class="btn btn-danger my-cart-btn" data-id="2" data-name="Dosa" data-summary="Stuffed"
+                        data-price="150" data-quantity="1" data-image="dosa.jpg">
+                        Add to cart
+                    </button>
+                </div>
+
+                <div class="col-md-3 text-center">
+                    <img class="featured-image" src="malai-kofta.jpg" width="250" height="200" alt="" />
+                    <br /><br />
+                    Malai Kofta - <strong>Rs 100</strong> <br /><br />
+                    <button class="btn btn-danger my-cart-btn" data-id="3" data-name="Malai Kofta"
+                        data-summary="Full plate" data-price="100" data-quantity="1" data-image="malai-kofta.jpg">
+                        Add to cart
+                    </button>
+                </div>
+                <div class="col-md-3 text-center">
+                    <img class="featured-image" src="naan.jpg" width="250" height="200" alt="Chhole" />
+                    <br /><br />
+                    Naan - <strong>Rs 20</strong> <br /><br />
+                    <button class="btn btn-danger my-cart-btn" data-id="4" data-name="Naan" data-summary="One pcs"
+                        data-price="20" data-quantity="1" data-image="naan.jpg">
+                        Add to cart
+                    </button>
+                </div>
+
+                <div class="col-md-3 text-center">
+                    <br /><br />
+                    <img class="featured-image" src="tofu-tikka-masala.jpg" width="250" height="200"
+                        alt="Chhole" />
+                    <br /><br />
+                    Tofu Tikka Masala - <strong>Rs 200</strong> <br /><br />
+                    <button class="btn btn-danger my-cart-btn" data-id="5" data-name="Tofu Tikka Masala"
+                        data-summary="Full plate" data-price="200" data-quantity="1" data-image="tofu-tikka-masala.jpg">
+                        Add to cart
+                    </button>
+                </div>
+
+                <div class="col-md-3 text-center">
+                    <br /><br />
+                    <img class="featured-image" src="rajma.jpg" width="250" height="200" alt="Chhole" />
+                    <br /><br />
+                    Rajma - <strong>Rs 150</strong> <br /><br />
+                    <button class="btn btn-danger my-cart-btn" data-id="6" data-name="Rajma" data-summary="Full plate"
+                        data-price="150" data-quantity="1" data-image="rajma.jpg">
+                        Add to cart
+                    </button>
+                </div>
+
+                <div class="col-md-3 text-center">
+                    <br /><br />
+                    <img class="featured-image" src="korma.jpg" width="250" height="200" alt="Chhole" />
+                    <br /><br />
+                    Korma - <strong>Rs 200</strong> <br /><br />
+                    <button class="btn btn-danger my-cart-btn" data-id="7" data-name="korma" data-summary="Full plate"
+                        data-price="200" data-quantity="1" data-image="korma.jpg">
+                        Add to cart
+                    </button>
+                </div>
+
+                <div class="col-md-3 text-center">
+                    <br /><br />
+                    <img class="featured-image" src="baigan-bharta.jpg" width="250" height="200"
+                        alt="Chhole" />
+                    <br /><br />
+                    Baigan Bharta - <strong>Rs 100</strong> <br /><br />
+                    <button class="btn btn-danger my-cart-btn" data-id="8" data-name="Baigan Bharta"
+                        data-summary="Full plate" data-price="100" data-quantity="1" data-image="baigan-bharta.jpg">
+                        Add to cart
+                    </button>
+                </div>
+                <div class="col-md-3 text-center">
+                    <br /><br />
+                    <img class="featured-image" src="veg-biryani.jpg" width="250" height="200"
+                        alt="Chhole" />
+                    <br /><br />
+                    Veg Biryani - <strong>Rs 200</strong> <br /><br />
+                    <button class="btn btn-danger my-cart-btn" data-id="9" data-name="Veg Biryani"
+                        data-summary="Full plate" data-price="200" data-quantity="1" data-image="veg-biryani.jpg">
+                        Add to cart
+                    </button>
+                </div>
+                <div class="col-md-3 text-center">
+                    <br /><br />
+                    <img class="featured-image" src="sabudana-vada.jpg" width="250" height="200"
+                        alt="Chhole" />
+                    <br /><br />
+                    Vada - <strong>Rs 110</strong> <br /><br />
+                    <button class="btn btn-danger my-cart-btn" data-id="10" data-name="Sabudana Vada"
+                        data-summary="One piece" data-price="110" data-quantity="1" data-image="sabudana-vada.jpg">
+                        Add to cart
+                    </button>
+                </div>
+                <div class="col-md-3 text-center">
+                    <br /><br />
+                    <img class="featured-image" src="mattar-paneer.jpg" width="250" height="200"
+                        alt="Chhole" />
+                    <br /><br />
+                    Mattar Paneer - <strong>Rs 180</strong> <br /><br />
+                    <button class="btn btn-danger my-cart-btn" data-id="11" data-name="Mattar Paneer"
+                        data-summary="Full plate" data-price="180" data-quantity="1" data-image="mattar-paneer.jpg">
+                        Add to cart
+                    </button>
+                </div>
+                <div class="col-md-3 text-center">
+                    <br /><br />
+                    <img class="featured-image" src="medu-vada.jpg" width="250" height="200"
+                        alt="Chhole" />
+                    <br /><br />
+                    Medu Vada - <strong>Rs 100</strong> <br /><br />
+                    <button class="btn btn-danger my-cart-btn" data-id="12" data-name="Medhu Vada"
+                        data-summary="Two pieces" data-price="100" data-quantity="1" data-image="medu-vada.jpg">
+                        Add to cart
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <br />
+        <div id="menu-desserts">
+            <h1 class="menu-h-primary">Desserts</h1>
+            <div class="split">
+                <div class="col-md-3 text-center">
+                    <br /><br />
+                    <img class="featured-image" src="gajar-ka-halwa.jpg" width="250" height="200"
+                        alt="Chhole" />
+                    <br /><br />
+                    Gajar ka Halwa - <strong>Rs 80/500g</strong> <br /><br />
+                    <button class="btn btn-danger my-cart-btn" data-id="13" data-name="Gajar ka Halwa"
+                        data-summary="Full plate" data-price="80" data-quantity="1" data-image="gajar-ka-halwa.jpg">
+                        Add to cart
+                    </button>
+                </div>
+                <div class="col-md-3 text-center">
+                    <br /><br />
+                    <img class="featured-image" src="barfi.jpg" width="250" height="200" alt="Chhole" />
+                    <br /><br />
+                    Barfi - <strong>Rs 100/kg</strong> <br /><br />
+                    <button class="btn btn-danger my-cart-btn" data-id="14" data-name="Barfi" data-summary="Coconut"
+                        data-price="100" data-quantity="1" data-image="barfi.jpg">
+                        Add to cart
+                    </button>
+                </div>
+                <div class="col-md-3 text-center">
+                    <br /><br />
+                    <img class="featured-image" src="gulab-jamun.jpg" width="250" height="200"
+                        alt="Chhole" />
+                    <br /><br />
+                    Gulab Jamun - <strong>Rs 150/kg</strong> <br /><br />
+                    <button class="btn btn-danger my-cart-btn" data-id="15" data-name="Gulab Jamun"
+                        data-summary="Gulab Jamun" data-price="150" data-quantity="1" data-image="gulab-jamun.jpg">
+                        Add to cart
+                    </button>
+                </div>
+                <div class="col-md-3 text-center">
+                    <br /><br />
+                    <img class="featured-image" src="kaju-katli.jpg" width="250" height="200"
+                        alt="Chhole" />
+                    <br /><br />
+                    Kaju Katli - <strong>Rs 300/kg</strong> <br /><br />
+                    <button class="btn btn-danger my-cart-btn" data-id="16" data-name="Kaju Katli"
+                        data-summary="Kaju Katli" data-price="300" data-quantity="1" data-image="kaju-katli.jpg">
+                        Add to cart
+                    </button>
+                </div>
+                <div class="col-md-3 text-center">
+                    <br /><br />
+                    <img class="featured-image" src="ras-malai.jpg" width="250" height="200"
+                        alt="Chhole" />
+                    <br /><br />
+                    Ras Malai - <strong>Rs 200/kg</strong> <br /><br />
+                    <button class="btn btn-danger my-cart-btn" data-id="17" data-name="Ras Malai"
+                        data-summary="Ras Malai" data-price="200" data-quantity="1" data-image="ras-malai.jpg">
+                        Add to cart
+                    </button>
+                </div>
+                <div class="col-md-3 text-center">
+                    <br /><br />
+                    <img class="featured-image" src="shrikhand.jpg" width="250" height="200"
+                        alt="Chhole" />
+                    <br /><br />
+                    Shrikhand - <strong>Rs 200/kg</strong> <br /><br />
+                    <button class="btn btn-danger my-cart-btn" data-id="18" data-name="Shrikhand"
+                        data-summary="Shrikhand" data-price="200" data-quantity="1" data-image="shrikhand.jpg">
+                        Add to cart
+                    </button>
+                </div>
+                <div class="col-md-3 text-center">
+                    <br /><br />
+                    <img class="featured-image" src="laddu.jpg" width="250" height="200" alt="Chhole" />
+                    <br /><br />
+                    Laddu - <strong>Rs 250/kg</strong> <br /><br />
+                    <button class="btn btn-danger my-cart-btn" data-id="19" data-name="Laddu" data-summary="Motichoor"
+                        data-price="250" data-quantity="1" data-image="laddu.jpg">
+                        Add to cart
+                    </button>
+                </div>
+                <div class="col-md-3 text-center">
+                    <br /><br />
+                    <img class="featured-image" src="kulfi.jpg" width="250" height="200" alt="Chhole" />
+                    <br /><br />
+                    Kulfi - <strong>Rs 50/pcs</strong> <br /><br />
+                    <button class="btn btn-danger my-cart-btn" data-id="20" data-name="Kulfi" data-summary="Kesar Pista"
+                        data-price="50" data-quantity="1" data-image="kulfi.jpg">
+                        Add to cart
+                    </button>
+                </div>
+                <div class="col-md-3 text-center">
+                    <br /><br />
+                    <img class="featured-image" src="modak.jpg" width="250" height="200" alt="Chhole" />
+                    <br /><br />
+                    Modak - <strong>Rs 200/kg</strong> <br /><br />
+                    <button class="btn btn-danger my-cart-btn" data-id="21" data-name="Modak" data-summary="Modak"
+                        data-price="200" data-quantity="1" data-image="modak.jpg">
+                        Add to cart
+                    </button>
+                </div>
+                <div class="col-md-3 text-center">
+                    <br /><br />
+                    <img class="featured-image" src="mysore-pak.jpg" width="250" height="200"
+                        alt="Chhole" />
+                    <br /><br />
+                    Mysore Pak - <strong>Rs 300/kg</strong> <br /><br />
+                    <button class="btn btn-danger my-cart-btn" data-id="22" data-name="Mysore Pak"
+                        data-summary="Mysore Pak" data-price="300" data-quantity="1" data-image="mysore-pak.jpg">
+                        Add to cart
+                    </button>
+                    <br><br>
+                </div>
+                <div class="col-md-3 text-center">
+                    <br /><br />
+                    <img class="featured-image" src="phirni.jpg" width="250" height="200" alt="Chhole" />
+                    <br /><br />
+                    Phirni - <strong>Rs 100/kg</strong> <br /><br />
+                    <button class="btn btn-danger my-cart-btn" data-id="23" data-name="Phirni" data-summary="Phirni"
+                        data-price="100" data-quantity="1" data-image="phirni.jpg">
+                        Add to cart
+                    </button>
+                    <br> <br>
+                </div>
+            </div>
+        </div>
+    
+
+    <section id="footer">
+        <h2 class="footer-title">Contact</h2>
+        <h3 class="h-secondary">Visit Us Today</h3>
+        <div class="footer-row">
+            <div class="footer-left">
+                <h1>Opening Hours</h1>
+                <p><i class="fa fa-clock-o"></i>Monday to Friday: 9AM to 9PM</p>
+                <p><i class="fa fa-clock-o"></i>Saturday to Sunday: 8AM to 11PM</p>
+            </div>
+            <div class="footer-right">
+                <h1>Get In Touch</h1>
+                <p><i class="fa fa-map-marker"></i>#69 abc Colony, xyz city IN</p>
+                <p><i class="fa fa-paper-plane"></i>example@website.com</p>
+                <p><i class="fa fa-phone"></i>+01 123456789</p>
+            </div>
+        </div>
+        <div class="social-links">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-youtube-play"></i>
+            <p>&copy Copyright Hunger-Bites</p>
+        </div>
+    </section>
+
+    <div class="select"></div>
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src="../homepage/jquery.mycart.js"></script>
+    <script src="../homepage/cart.js"></script>
+    <script>
+        var scroll = new SmoothScroll('a[href*="#"]', {
+            speed: 1000,
+            speedAsDuration: true,
+        });
+    </script>
+</body>
+
+</html>
